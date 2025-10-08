@@ -8,7 +8,7 @@ authors:
   - given-names: Emmanuel
     family-names: K.
     email: emmanuelkaza1234@gmail.com
-repository-code: 'https://github.com/yourusername/land-cover-classification'
+repository-code: 'https://github.com/Emmanuel-1234/Landcover-Classification'
 abstract: >-
   A comprehensive geospatial analysis project for automated land cover
   classification using Sentinel-2 satellite imagery and optimized spectral
