@@ -7,13 +7,13 @@
 
 A comprehensive geospatial analysis project for automated land cover classification using Sentinel-2 satellite imagery and machine learning-optimized spectral indices.
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements an advanced land cover classification system that leverages Google Earth Engine (GEE) and Sentinel-2 satellite data to identify and quantify different land cover types including vegetation, water bodies, built-up areas, and bare land. The study area focuses on the Vijayawada region in Andhra Pradesh, India, analyzing imagery from 2021.
 
 The project demonstrates the application of remote sensing, geospatial analysis, and machine learning optimization techniques to solve real-world environmental monitoring challenges.
 
-## ✨ Key Features
+##  Key Features
 
 - **Multi-spectral Analysis**: Utilizes all 13 Sentinel-2 bands for comprehensive land cover detection
 - **Optimized Spectral Indices**: Machine learning-based optimization of BSI (Bare Soil Index) and NBI (New Built-up Index) using F1-score maximization
@@ -23,7 +23,7 @@ The project demonstrates the application of remote sensing, geospatial analysis,
 - **Area Quantification**: Automated calculation of land cover areas in km²
 - **Cloud Filtering**: Intelligent cloud coverage filtering (<5%) for optimal image quality
 
-## 📊 Spectral Indices Implemented
+##  Spectral Indices Implemented
 
 ### Vegetation Indices
 - **NDVI** (Normalized Difference Vegetation Index): `(NIR - Red) / (NIR + Red)`
@@ -53,7 +53,7 @@ The project demonstrates the application of remote sensing, geospatial analysis,
 - **BSI** (Bare Soil Index): Optimized formula with 9 coefficients
   - F1-score maximized for bare land classification
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.8+**
 - **Google Earth Engine (GEE)**: Cloud-based satellite imagery processing
@@ -64,7 +64,7 @@ The project demonstrates the application of remote sensing, geospatial analysis,
 - **SciPy**: Numerical optimization (Nelder-Mead algorithm)
 - **rasterio & GDAL**: Geospatial raster data I/O
 
-## 📥 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -93,7 +93,7 @@ ee.Initialize(project='your-project-id')
 
 For Google Colab users, authentication will prompt a browser-based login.
 
-## 🚀 Usage
+##  Usage
 
 ### Quick Start
 
@@ -161,7 +161,7 @@ Map.centerObject(geometry, 12)
 Map
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 land-cover-classification/
@@ -201,7 +201,7 @@ land-cover-classification/
 └── README.md                           # This file
 ```
 
-## 📈 Results
+##  Results
 
 ### Study Area: Vijayawada Region (2021)
 
@@ -216,15 +216,15 @@ land-cover-classification/
 
 ### Key Findings
 
-✅ **Optimization Success**: Machine learning-based coefficient optimization improved F1-scores for BSI and NBI indices
+ **Optimization Success**: Machine learning-based coefficient optimization improved F1-scores for BSI and NBI indices
 
-✅ **Water Detection**: Multi-index approach (NDVI + NDWI + MNDWI) provided robust water body delineation, minimizing shadow confusion
+ **Water Detection**: Multi-index approach (NDVI + NDWI + MNDWI) provided robust water body delineation, minimizing shadow confusion
 
-✅ **Urban Mapping**: 10m spatial resolution enabled detailed urban area mapping, capturing road networks and building patterns
+ **Urban Mapping**: 10m spatial resolution enabled detailed urban area mapping, capturing road networks and building patterns
 
-✅ **Vegetation Health**: NDVI and EVI combination revealed varying vegetation density across the study area
+ **Vegetation Health**: NDVI and EVI combination revealed varying vegetation density across the study area
 
-## 🔬 Methodology
+##  Methodology
 
 ### Index Optimization Process
 
@@ -253,7 +253,7 @@ Sentinel-2 Image → Cloud Filter → Band Selection → Index Calculation
 → Threshold Application → Mask Creation → Area Quantification → Visualization
 ```
 
-## 🎯 Challenges and Solutions
+##  Challenges and Solutions
 
 | Challenge | Solution |
 |-----------|----------|
@@ -263,7 +263,7 @@ Sentinel-2 Image → Cloud Filter → Band Selection → Index Calculation
 | **Index Parameter Tuning** | ML-based optimization using F1-score |
 | **Computational Load** | Google Earth Engine cloud processing |
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - [ ] **Random Forest Classifier**: Implement supervised ML classification
 - [ ] **Time-Series Analysis**: Multi-temporal change detection (2020-2025)
@@ -274,7 +274,7 @@ Sentinel-2 Image → Cloud Filter → Band Selection → Index Calculation
 - [ ] **Accuracy Assessment**: Ground truth validation with confusion matrix
 - [ ] **Deep Learning**: Implement U-Net for semantic segmentation
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -290,7 +290,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Google Earth Engine** for providing satellite imagery and cloud computing infrastructure
 - **Copernicus Sentinel-2** mission for open-access multispectral data
@@ -307,7 +307,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Project Link**: [https://github.com/yourusername/land-cover-classification](https://github.com/yourusername/land-cover-classification)
 
-## 📚 References
+##  References
 
 1. Zha, Y., Gao, J., & Ni, S. (2003). Use of normalized difference built-up index in automatically mapping urban areas from TM imagery. *International Journal of Remote Sensing*, 24(3), 583-594.
 
