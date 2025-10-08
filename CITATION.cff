@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: Land Cover Classification Using Sentinel-2 Satellite Imagery
+message: >-
+  If you use this software or reference this work, please cite it using
+  the metadata from this file.
+type: software
+authors:
+  - given-names: Emmanuel
+    family-names: K.
+    email: your.email@example.com
+repository-code: 'https://github.com/yourusername/land-cover-classification'
+abstract: >-
+  A comprehensive geospatial analysis project for automated land cover
+  classification using Sentinel-2 satellite imagery and optimized spectral
+  indices. This work implements machine learning-based optimization of BSI
+  (Bare Soil Index) and NBI (New Built-up Index) using F1-score maximization
+  for improved land cover detection in the Vijayawada region, India.
+keywords:
+  - remote sensing
+  - satellite imagery
+  - land cover classification
+  - spectral indices
+  - Google Earth Engine
+  - geospatial analysis
+  - machine learning optimization
+  - Sentinel-2
+license: MIT
+version: 1.0.0
+date-released: '2025-10-08'
