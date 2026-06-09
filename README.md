@@ -301,11 +301,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **K. Emmanuel**
 
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
+- 📧 Email: emmanuelkaza1234@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/emmanuel-kaza-4825a41a7/)
+- 🐙 GitHub: [@emmanuel](https://github.com/Emmanuel-1234)
 
-**Project Link**: [https://github.com/yourusername/land-cover-classification](https://github.com/yourusername/land-cover-classification)
+**Project Link**: [https://github.com/yourusername/land-cover-classification](https://github.com/Emmanuel-1234/land-cover-classification)
 
 ##  References
 
